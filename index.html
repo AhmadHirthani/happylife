@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+
+        nav {
+            background-color: darkcyan;
+        }
+
+        article {
+            background-color: rgb(120, 200, 214);
+            height: 500px;
+            width: inherit;
+            margin: 30px;
+            padding: 10px;
+        }
+
+       
+
+        p {
+            font-size: x-large;
+          
+            
+        }
+
+        img {
+            width: 600px;
+            height: 480px;
+            
+
+        }
+
+        li {
+            display: inline-block;
+            margin: 10px 90px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: xx-large;
+            color: fuchsia;
+        }
+
+        #imgsection {
+            float: left;
+            width: fit-content;
+        }
+
+        #psection {
+            float: right;
+            width: 540px;
+            background-color: rgb(160, 207, 238);
+            margin: 10px;
+            
+
+        }
+    </style>
+    <link href="css/styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Life</title>
 </head>
+
 <body>
     <header>
-        <title><h1>Happy life</h1></title>
+
         <nav>
+
+            <h1>Happy life</h1>
+
             <ul>
                 <li><a href="https://ahmadhirthani.github.io/happylife/">HOME</a></li>
                 <li><a href="https://ahmadhirthani.github.io/happylife/sportsadvice">Sports Advice</a></li>
@@ -19,18 +84,59 @@
     </header>
     <main>
         <article>
-            <section><img src="https://cdn.pixabay.com/photo/2015/07/16/17/17/run-847957_960_720.jpg" alt="" width="400" srcset=""></section>
-            <section><p>Sport is very important for being happy in your life</p></section>
+            <section id="imgsection">
+                <img src="https://cdn.pixabay.com/photo/2015/07/16/17/17/run-847957_960_720.jpg" alt="" srcset="">
+
+            </section>
+            <section id="psection">
+                <p>Jogging or running is a popular form of physical activity. About one in five Australians try running
+                    (or
+                    jogging) at some stage in their life. Running is an appealing exercise because it doesn't cost a lot
+                    to
+                    take part and you can run at any time that suits you. Some runners choose to participate in fun
+                    runs,
+                    athletics races or marathons. If you are interested in competing with other runners, contact your
+                    local
+                    running club.</p>
+            </section>
+
+
         </article>
         <article>
-            <section><p>Chosing the food that you eat is very important to your happiness</p></section>
-            <section><img src="https://c0.wallpaperflare.com/preview/886/624/952/food-healthy-lifestyle-eating-healthy-healthy.jpg" alt="" width="400" srcset=""></section>
+            <section id="imgsection"><img
+                    src="https://c0.wallpaperflare.com/preview/886/624/952/food-healthy-lifestyle-eating-healthy-healthy.jpg"
+                    alt="" srcset=""></section>
+            <section id="psection">
+
+                <p>The food we eat gives our bodies the "information" and materials they need to function properly. If
+                    we
+                    don't get the right information, our metabolic processes suffer and our health declines.
+
+                    If we get too much food, or food that gives our bodies the wrong instructions, we can become
+                    overweight,
+                    undernourished, and at risk for the development of diseases and conditions, such as arthritis,
+                    diabetes,
+                    and heart disease.
+
+                    In short, what we eat is central to our health. Consider that in light of Webster's definition of
+                    medicine: "The science and art dealing with the maintenance of health and the prevention,
+                    alleviation,
+                    or cure of disease."</p>
+            </section>
+
+
         </article>
         <article>
-            <section><img src="https://c1.wallpaperflare.com/preview/618/815/724/solitude-alone-dock-female.jpg" alt="" width="400" srcset=""></section>
-            <section><p> nnn staying alone for a part of your day will makes you feel better and imporoves your life</p></section>
+            <section id="imgsection"><img
+                    src="https://c1.wallpaperflare.com/preview/618/815/724/solitude-alone-dock-female.jpg" alt=""
+                    srcset=""></section>
+            <section id="psection">
+
+                <p> nnn staying alone for a part of your day will makes you feel better and imporoves your life</p>
+            </section>
         </article>
     </main>
     <footer></footer>
 </body>
+
 </html>
