@@ -1,0 +1,82 @@
+a{
+    color: rgb(241, 233, 233);
+    font-style: normal;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://storage.needpix.com/rsynced_images/jolly-1176091_1280.jpg");
+}
+
+nav {
+    background-color: rgba(23, 39, 92, 0.795);
+    opacity: 0.85;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+article {
+    height: 500px;
+    width: inherit;
+    margin: 30px;
+    padding: 10px;
+}
+
+p {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 600px;
+    height: 480px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(248, 61, 61);
+    border-width: thick;
+}
+
+li {
+    display: inline-block;
+    margin: 10px 40px;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    opacity: 2;
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+
+#imgsection {
+    float: left;
+    width: fit-content;
+}
+
+#psection {
+    float: right;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(68, 113, 235);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+footer p{
+    color:black;
+    font-weight: bold;
+}
