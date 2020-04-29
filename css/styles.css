@@ -1,5 +1,5 @@
 a{
-    color: rgb(241, 233, 233);
+    color: rgb(0, 0, 0);
     font-style: normal;
     font-weight: bold;
 }
@@ -12,10 +12,13 @@ body {
 }
 
 nav {
-    background-color: rgba(23, 39, 92, 0.795);
-    opacity: 0.85;
-    border-radius: 20px;
-    margin: 15px;
+    width: inherit;
+    height: 50px;
+    border-bottom:4px solid #ffffff ;
+    opacity: 0.8;
+    margin: 0mm;
+    padding: 0mm;
+    
 }
 
 article {
@@ -41,23 +44,21 @@ img {
 
 li {
     display: inline-block;
-    margin: 10px 40px;
+    margin: 0px 35px;
     font-size: x-large;
     font-weight: bold;
-    border-radius: 20px;
-    width: 150px;
-    height: 40px;
+    width: 165px;
+    height: 35px;
     text-align: center;
-    padding: 20px;
-    opacity: 2;
-    background-color: brown;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
+   
     font-weight: bolder;
     color: rgb(255, 0, 0);
+    padding: 0mm;
+    margin: 0mm;
 }
 
 #imgsection {
@@ -80,3 +81,4 @@ footer p{
     color:black;
     font-weight: bold;
 }
+
