@@ -1,2 +1,2 @@
 # happylife
-hppy life website
+[Hppy life website](https://ahmadhirthani.github.io/happylife/)
