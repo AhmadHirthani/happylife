@@ -1,0 +1,105 @@
+a{
+    color:#6254E8
+      ;
+    font-style: normal;
+    font-weight: bold;
+}
+#loginName{
+    color: rgb(255, 0, 200);
+
+
+}
+footer p {
+    text-align: center;
+}
+
+body {
+    
+    background-image: url("https://storage.needpix.com/rsynced_images/jolly-1176091_1280.jpg");
+    background-color: rgba(255,255,255,0.2);
+    background-blend-mode: lighten;
+}
+
+nav {
+    width: inherit;
+    height: 60px;
+    border-bottom:4px solid #ffffff ;
+    opacity: 0.8;
+    margin: 0mm;
+    padding: 0mm;
+    
+}
+
+article {
+    height: 500px;
+    width: inherit;
+    margin: 30px;
+    padding: 10px;
+}
+
+p {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 600px;
+    height: 480px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6254E8;
+    border-width: thick;
+}
+
+li h2{
+    width: 20px;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: x-large;
+    font-weight: bold;
+    width: 165px;
+    height: 35px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+   
+    font-weight: bolder;
+    color: rgb(255, 0, 200);
+    padding: 0mm;
+    margin: 0mm;
+}
+
+h2 {
+    text-align: center;   
+    font-weight: bolder;
+    color: rgb(255, 0, 200);
+    padding: 0mm;
+    margin: 0mm;
+}
+
+#imgsection {
+    float: left;
+    width: fit-content;
+}
+
+#psection {
+    float: right;
+    height: 400px;
+    width: 500px;
+    background-color: #FD4FFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+footer p{
+    color:black;
+    font-weight: bold;
+}
+

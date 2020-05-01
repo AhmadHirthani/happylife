@@ -3,6 +3,9 @@ a{
     font-style: normal;
     font-weight: bold;
 }
+#loginName{
+    color: blue;
+}
 footer p {
     text-align: center;
 }
@@ -44,21 +47,30 @@ img {
     border-color: rgb(248, 61, 61);
     border-width: thick;
 }
+li h2{
+    width: 20px;
+}
 
 li {
     display: inline-block;
     margin: 0px 10px;
     font-size: x-large;
     font-weight: bold;
-    width: 165px;
+    width: 170px;
     height: 35px;
     text-align: center;
 }
 
 h1 {
-    text-align: center;
-   
+    text-align: center;   
     font-weight: bolder;
+    color: rgb(255, 0, 0);
+    padding: 0mm;
+    margin: 0mm;
+}
+
+h2 {
+    text-align: center;   
     color: rgb(255, 0, 0);
     padding: 0mm;
     margin: 0mm;

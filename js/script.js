@@ -1,24 +1,50 @@
-
 var name = prompt('Enter your Name please!');
 var age = prompt('Enter your Age please!');
 var genderChar = prompt('Enter your Gender please! (m or f)');
-var lowerCaseGenderChar=genderChar.toLocaleLowerCase;
+var lowerCaseGenderChar=genderChar.toLocaleLowerCase();
 var gender;
+var styleLink = document.getElementsByTagName("link");
+var alertMessage='';
+ageWarningMessage='';
 
-if (lowerCaseGenderChar == 'm') {
-    gender = 'Male';
-} else if (lowerCaseGenderChar = 'f') {
+
+document.getElementById('loginName').innerText='Login as '+name;
+
+
+
+
+
+if (lowerCaseGenderChar == 'f') {
     gender = 'Female';
+    styleLink[0].href = "css/femaleStyle.css";
+    alertMessage='You will change you to pink theme';
+} else if (lowerCaseGenderChar = 'm') {
+    gender = 'Male';
 } else {
     gender='you enterd a wrong valur for the gender';
 }
 
-document.getElementById('loginName').innerHTML='Login as '+name;
+if(age < 18){
+    ageWarningMessage='+18';
+}
+
+document.getElementById('warning').innerText=ageWarningMessage;
 
 
-alert('Wellcome '+name+', Your age is: '+age+', your Gender is: '+gender);
+//document.getElementById('pageTitle').innerHTML='Happy Life '+ageWarningMessage;
+var pageTilte=document.getElementsByTagName("title");
+pageTilte[0].innerText = "css/femaleStyle.css";
+
+//='ggg';
 
 
-console.log(name);
-console.log(age);
-console.log(gender);
+
+//document.write(ageWarningMessage);
+
+
+alert('Wellcome '+name+','+ alertMessage);
+
+
+
+
+
