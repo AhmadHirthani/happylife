@@ -1,6 +1,40 @@
 var name = prompt('Enter your Name please!');
 var age = prompt('Enter your Age please!');
-var genderChar = prompt('Enter your Gender please! (m or f)');
+var genderValid = false;
+var genderChar;
+var quantityValid = false;
+var quantity = '';
+
+while (!genderValid) {
+    genderChar = prompt('Enter your Gender please! (m or f)');
+    if (genderChar == 'f' || genderChar == 'F' || genderChar == 'M' || genderChar == 'm') {
+        genderValid = true;
+    }
+}
+
+while (!quantityValid) {
+    quantity = prompt('How many flowers do you want? Maximum 5');
+    if (quantity > 0 && quantity < 6) {
+        quantityValid = true;
+    }
+}
+
+
+var article = document.createElement("ARTICLE");
+article.setAttribute('id', 'imagesArticle')
+var section = document.createElement("SECTION");
+document.body.appendChild(article);
+article.appendChild(section);
+
+for (x = 1; x <= quantity; x++) {
+    var img = document.createElement("IMG");
+    img.setAttribute("src", "/images/" + x + ".jpg")
+    img.setAttribute("width", "200");
+    img.setAttribute("height", "200");
+    img.setAttribute("alt", "The Pulpit Rock");
+    section.appendChild(img);
+}
+
 var lowerCaseGenderChar = genderChar.toLocaleLowerCase();
 var gender;
 var alertMessage = '';
@@ -56,6 +90,8 @@ pageTilte[0].innerText = "css/femaleStyle.css";
 
 
 alert('Wellcome ' + name + ',' + alertMessage);
+
+
 
 
 

@@ -3,8 +3,10 @@ a{
     font-style: normal;
     font-weight: bold;
 }
+
 #loginName{
     color: blue;
+
 }
 footer p {
     text-align: center;
@@ -27,6 +29,13 @@ nav {
     
 }
 
+#imagesArticle {
+    height: 220px;
+    width: inherit;
+    margin: 30px;
+    padding: 10px;
+}
+
 article {
     height: 500px;
     width: inherit;
@@ -39,7 +48,7 @@ p {
     color: rgb(255, 255, 255);
 }
 
-img {
+.articleImage{
     width: 600px;
     height: 480px;
     border-radius: 20px;
@@ -80,6 +89,7 @@ h2 {
     float: left;
     width: fit-content;
 }
+
 
 #psection {
     float: right;
